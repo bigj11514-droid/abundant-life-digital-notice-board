@@ -100,7 +100,11 @@ body {
   font-weight: 700;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-
+#design{
+  font-size: 150%;
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .button--primary {
   background: var(--primary);
   color: white;

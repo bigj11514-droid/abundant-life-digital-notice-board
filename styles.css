@@ -106,6 +106,9 @@ body {
   color: white;
 }
 
+a{
+  text-decoration: none;
+}
 .button:hover {
   transform: translateY(-1px);
   box-shadow: 0 12px 24px rgba(10, 102, 194, 0.18);

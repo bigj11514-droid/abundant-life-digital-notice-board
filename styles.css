@@ -272,6 +272,33 @@ a{
   margin-top: 1rem;
 }
 
+.contact-container {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.school-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 2px solid var(--card-border);
+  flex-shrink: 0;
+}
+
+.contact-content {
+  flex: 1;
+}
+
+.school-description {
+  color: var(--muted);
+  line-height: 1.75;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
 img {
   max-width: 100%;
   height: auto;

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d47a1"/>
+      <stop offset="100%" stop-color="#1976d2"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="108" fill="url(#grad)" stroke="#ffffff" stroke-width="8"/>
+  <path d="M120 34 L72 64 L72 126 C72 168 96 206 120 206 C144 206 168 168 168 126 L168 64 Z" fill="rgba(255,255,255,0.2)"/>
+  <text x="120" y="118" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="42" fill="#ffffff" font-weight="800">AL</text>
+  <text x="120" y="160" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#ffffff">Academy</text>
+</svg>

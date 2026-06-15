@@ -216,6 +216,31 @@ a{
   color: var(--text);
 }
 
+.panel--admission {
+  padding-bottom: 0.75rem;
+}
+
+.admission-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.admission-card h3 {
+  margin-top: 0;
+  color: var(--primary);
+}
+
+.admission-list {
+  margin: 0.75rem 0 0;
+  padding-left: 1.15rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.admission-list li {
+  margin-bottom: 0.7rem;
+}
+
 .panel--timetable {
   overflow-x: auto;
 }

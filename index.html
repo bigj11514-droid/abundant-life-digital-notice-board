@@ -26,6 +26,21 @@
           Parents and school staff can share announcements using the Share
           button on each notice.
         </p>
+        <div class="board-top">
+          <div class="board-summary">
+            <span id="noticeCount">0 notices</span>
+            <span>Search for notices or filter important updates quickly.</span>
+          </div>
+          <div class="board-actions">
+            <button
+              type="button"
+              class="button button--secondary"
+              onclick="document.getElementById('noticeTitle').focus()"
+            >
+              Post a New Notice
+            </button>
+          </div>
+        </div>
         <div id="noticeList" class="notice-list"></div>
         <p id="emptyMessage" class="empty-message">
           No notices yet. Add the first announcement above.

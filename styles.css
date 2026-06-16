@@ -355,21 +355,27 @@ a{
 }
 
 .download-grid,
-.gallery-grid {
+.gallery-grid,
+.features-grid {
   display: grid;
   gap: 1rem;
 }
 
-.download-grid {
+.download-grid,
+.features-grid {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
-.download-card {
-  display: block;
+.download-card,
+.feature-card {
   padding: 1.25rem;
   background: #f8fbff;
   border: 1px solid #d7e5ff;
   border-radius: 18px;
+}
+
+.download-card {
+  display: block;
   text-decoration: none;
   color: var(--text);
   transition: transform 0.2s ease, border-color 0.2s ease;
@@ -380,15 +386,18 @@ a{
   border-color: var(--accent);
 }
 
-.download-title {
+.download-title,
+.feature-card h3 {
   display: block;
   font-size: 1.05rem;
   font-weight: 700;
   margin-bottom: 0.35rem;
 }
 
-.download-note {
+.download-note,
+.feature-card p {
   color: var(--muted);
+  line-height: 1.6;
 }
 
 .gallery-grid {
